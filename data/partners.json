@@ -238,5 +238,65 @@
     "address": "ITPL Main Road, Whitefield, Bangalore",
     "city": "Bangalore",
     "contact": "080-41129800"
+  },
+  {
+    "id": 21,
+    "name": "Bank of India - Priority Sector & MSME Hub",
+    "type": "PSB",
+    "schemes": ["Micro Finance", "Term Loan", "Education Loan"],
+    "lat": 28.6315,
+    "lng": 77.2167,
+    "status": "Active",
+    "address": "Star House, H-2 Connaught Circus, New Delhi",
+    "city": "Delhi",
+    "contact": "011-23412180"
+  },
+  {
+    "id": 22,
+    "name": "Union Bank of India - Financial Inclusion Cell",
+    "type": "PSB",
+    "schemes": ["Term Loan", "Education Loan", "Micro Finance"],
+    "lat": 18.9256,
+    "lng": 72.8242,
+    "status": "Active",
+    "address": "Union Bank Bhavan, 239 Vidhan Bhavan Marg, Nariman Point, Mumbai",
+    "city": "Mumbai",
+    "contact": "022-22892000"
+  },
+  {
+    "id": 23,
+    "name": "Central Bank of India - MSME & Social Welfare Branch",
+    "type": "PSB",
+    "schemes": ["Micro Finance", "Term Loan", "Education Loan"],
+    "lat": 22.5744,
+    "lng": 88.3532,
+    "status": "Active",
+    "address": "33, Netaji Subhas Road, Dalhousie, Kolkata",
+    "city": "Kolkata",
+    "contact": "033-22308921"
+  },
+  {
+    "id": 24,
+    "name": "Indian Overseas Bank - Welfare Credit Branch",
+    "type": "PSB",
+    "schemes": ["Micro Finance", "Term Loan", "Education Loan"],
+    "lat": 13.0629,
+    "lng": 80.2617,
+    "status": "Active",
+    "address": "763, Anna Salai, Thousand Lights, Chennai",
+    "city": "Chennai",
+    "contact": "044-28519570"
+  },
+  {
+    "id": 25,
+    "name": "Dr. B.R. Ambedkar Development Corporation (ADCL)",
+    "type": "SCA",
+    "schemes": ["Micro Finance", "Term Loan", "Education Loan"],
+    "lat": 12.9767,
+    "lng": 77.5993,
+    "status": "Active",
+    "address": "9th & 10th Floor, Visvesvaraya Mini Tower, Dr. Ambedkar Veedhi, Bangalore",
+    "city": "Bangalore",
+    "contact": "080-22865521"
   }
 ]
