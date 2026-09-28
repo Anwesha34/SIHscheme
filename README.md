@@ -1,36 +1,85 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# AI Loan Matching & Smart Routing System
 
-## Getting Started
+An AI-assisted platform designed to help eligible entrepreneurs discover suitable financial schemes and connect with appropriate lending institutions through intelligent loan matching and smart routing.
 
-First, run the development server:
+> Developed collaboratively as a team project for the **Smart India Hackathon (SIH)**.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚀 Problem Statement
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Entrepreneurs and applicants often face difficulties in finding suitable financial assistance schemes, understanding eligibility criteria, and identifying appropriate lending institutions.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+This project aims to simplify the process by providing a centralized digital platform for:
 
-## Learn More
+- Discovering relevant financial schemes
+- Checking eligibility requirements
+- Matching users with suitable schemes
+- Providing AI-assisted recommendations
+- Routing applications toward appropriate financial institutions
+- Tracking relevant application information
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 💡 Solution
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+The **AI Loan Matching & Smart Routing System** uses a user-friendly web interface and intelligent matching logic to help users identify financial schemes based on their profile and requirements.
 
-## Deploy on Vercel
+The platform is designed to improve accessibility to financial assistance by reducing the complexity of searching through multiple schemes and institutions.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## ✨ Key Features
+
+- 🤖 AI-assisted loan and scheme matching
+- 📋 Eligibility-based recommendations
+- 🏦 Smart routing toward suitable financial institutions
+- 📊 Financial scheme information dashboard
+- 🔐 User authentication
+- 📱 Responsive web interface
+- 🗃️ Database-backed application management
+- ⚡ Fast and modern Next.js application
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+- Next.js
+- React.js
+- TypeScript
+- Tailwind CSS
+
+### Backend & Database
+- Supabase
+- REST APIs
+
+### AI & Data
+- AI-assisted matching and recommendation logic
+- Structured financial scheme and eligibility data
+
+### Tools & Platforms
+- Git
+- GitHub
+- Vercel
+
+---
+
+## 🏗️ Project Structure
+
+```text
+SIHscheme/
+├── .vscode/
+├── app/
+├── components/
+├── data/
+├── lib/
+├── pages/
+├── public/
+├── scripts/
+├── src/
+├── supabase/
+├── utils/
+├── .eslintrc.json
+├── package.json
+└── README.md
