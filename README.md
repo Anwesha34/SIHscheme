@@ -112,7 +112,7 @@ This creates a more structured journey from **scheme discovery to financial inst
 Relevant Lending Institution
 
 
-Institution
+
 🛠️ Technology Stack
 Frontend
 Next.js
@@ -178,46 +178,24 @@ You can verify Node.js and npm using:
 node -v
 npm -v
 📥 Installation
+Clone the repository:git clone https://github.com/YOUR-USERNAME/SIHscheme.git
+Move into the project directory:cd SIHscheme
 
-Clone the repository:
+Install dependencies: npm install ▶️ Run the Development Server
 
-git clone https://github.com/YOUR-USERNAME/SIHscheme.git
+Start the development server:npm run dev
 
-Move into the project directory:
+Open the application in your browser:http://localhost:3000
 
-cd SIHscheme
-
-Install dependencies:
-
-npm install
-▶️ Run the Development Server
-
-Start the development server:
-
-npm run dev
-
-Open the application in your browser:
-
-http://localhost:3000
-🔑 Environment Variables
-
-If the project requires environment variables, create a file named:
-
-.env.local
-
+🔑 Environment Variables If the project requires environment variables, create a file named:.env.local
 Add the required configuration, for example:
-
 NEXT_PUBLIC_SUPABASE_URL=your_supabase_url
 NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_key
-
 Never upload private API keys, passwords, secret tokens, or other sensitive credentials to GitHub.
 
 🖥️ Application Workflow
-
 The platform follows a simple user journey:
-
 Step 1 — User Information
-
 The user provides relevant information required for finding suitable financial schemes.
 
 Step 2 — Requirement Analysis
@@ -240,57 +218,8 @@ Step 6 — Smart Routing
 
 The system guides the user toward relevant lending institutions for the next stage.
 
-📸 Screenshots
-
-Add screenshots of the application here.
-
-Example:
-
-## Home Page
-
-![Home Page](screenshots/home.png)
-
-## Loan Matching
-
-![Loan Matching](screenshots/matching.png)
-
-## Scheme Details
-
-![Scheme Details](screenshots/scheme-details.png)
-
-## Smart Routing
-
-![Smart Routing](screenshots/routing.png)
-
-You can create a screenshots folder in the repository and upload your actual screenshots there.
-
-🌐 Live Demo
-
-Add your deployed application link here:
-
-Live Demo: YOUR_DEPLOYED_PROJECT_URL
-
-👥 Team Project
-
-This project was developed as a team project for Smart India Hackathon (SIH).
-
-The system was developed collaboratively with contributions across different parts of the application.
-
-My Contribution
-
-My contribution to the project includes:
-
-[Add the exact feature/module you worked on]
-[Add frontend/backend/database contribution]
-[Add UI/UX contribution if applicable]
-[Add testing/debugging/documentation if applicable]
-
-Only list contributions that you actually worked on.
-
 🔮 Future Improvements
-
 Possible future improvements include:
-
 More advanced AI-based recommendations
 More financial schemes and institutions
 Improved eligibility analysis
@@ -302,84 +231,47 @@ Notifications and reminders
 Integration with additional financial institutions
 Improved analytics and reporting
 Better accessibility for users with limited digital literacy
+
 📈 Project Benefits
-
 The platform aims to:
-
 Simplify financial scheme discovery
 Reduce manual searching
 Improve awareness of available schemes
 Help users understand eligibility requirements
 Connect entrepreneurs with relevant financial institutions
 Make the overall loan discovery process more structured
+
 🔒 Security
-
 The application should follow secure development practices including:
-
 Protecting authentication information
 Keeping API credentials private
 Using environment variables for sensitive configuration
 Validating user input
 Restricting access to protected resources
-🚀 Deployment
 
+🚀 Deployment
 The project can be deployed using platforms that support Next.js applications.
 
 For example:
-
 GitHub → Vercel → Production
-
 After deployment, update the Live Demo section with the actual application URL.
 
 📌 Project Status
-
 Status: Developed as a Smart India Hackathon project.
-
 The project can be further enhanced with additional financial schemes, improved AI-based matching, more lending institution integrations, and additional user-focused features.
 
 📚 Learn More
-
 This project is built using modern web technologies including Next.js and React.
 
 For more information about Next.js, visit the official documentation:
-
 https://nextjs.org/docs
-
-For React:
-
-https://react.dev/
-
-For TypeScript:
-
-https://www.typescriptlang.org/docs/
-
-For Tailwind CSS:
-
-https://tailwindcss.com/docs
+For React:https://react.dev/
+For TypeScript:https://www.typescriptlang.org/docs/
+For Tailwind CSS: https://tailwindcss.com/docs
 
 📄 License
-
 This project was developed for educational, hackathon, and demonstration purposes.
-
 If you intend to distribute or reuse the project, add an appropriate open-source license such as MIT based on your team's decision.
 
 
-### GitHub **About** section
 
-For the short description at the top-right of your repository, use:
-
-> **AI-assisted platform for matching entrepreneurs with suitable financial schemes and intelligently routing them toward relevant lending institutions.**
-
-**Topics:**
-
-```text
-smart-india-hackathon
-ai
-fintech
-loan-matching
-financial-inclusion
-nextjs
-react
-typescript
-supabase
-tailwindcss
