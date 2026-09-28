@@ -1,85 +1,112 @@
 # AI Loan Matching & Smart Routing System
 
-An AI-assisted platform designed to help eligible entrepreneurs discover suitable financial schemes and connect with appropriate lending institutions through intelligent loan matching and smart routing.
+### An AI-Assisted Platform for Connecting Eligible Entrepreneurs with Suitable Financial Schemes and Lending Institutions
 
-> Developed collaboratively as a team project for the **Smart India Hackathon (SIH)**.
+The **AI Loan Matching & Smart Routing System** is a digital platform designed to help entrepreneurs discover suitable government/financial loan schemes based on their requirements and eligibility.
 
----
+The system assists users in identifying relevant schemes and guides them toward appropriate lending institutions, making the process of finding financial support more structured, accessible, and user-friendly.
 
-## 🚀 Problem Statement
-
-Entrepreneurs and applicants often face difficulties in finding suitable financial assistance schemes, understanding eligibility criteria, and identifying appropriate lending institutions.
-
-This project aims to simplify the process by providing a centralized digital platform for:
-
-- Discovering relevant financial schemes
-- Checking eligibility requirements
-- Matching users with suitable schemes
-- Providing AI-assisted recommendations
-- Routing applications toward appropriate financial institutions
-- Tracking relevant application information
+This project was developed as part of the **Smart India Hackathon (SIH)**.
 
 ---
 
-## 💡 Solution
+## 🚀 Key Features
 
-The **AI Loan Matching & Smart Routing System** uses a user-friendly web interface and intelligent matching logic to help users identify financial schemes based on their profile and requirements.
+### 🤖 AI-Assisted Loan & Scheme Matching
+- Helps identify financial schemes relevant to the user's requirements.
+- Uses user-provided information to support scheme matching.
+- Reduces the difficulty of manually searching through multiple schemes.
 
-The platform is designed to improve accessibility to financial assistance by reducing the complexity of searching through multiple schemes and institutions.
+### ✅ Eligibility-Based Recommendations
+- Considers important eligibility requirements while matching schemes.
+- Helps users understand whether a particular scheme may be relevant to them.
 
----
+### 🏦 Smart Routing
+- Connects suitable schemes with relevant lending institutions.
+- Helps users understand where they can proceed after finding a suitable scheme.
 
-## ✨ Key Features
+### 🔎 Scheme Discovery
+- Provides structured information about available financial schemes.
+- Makes scheme discovery easier through a centralized platform.
 
-- 🤖 AI-assisted loan and scheme matching
-- 📋 Eligibility-based recommendations
-- 🏦 Smart routing toward suitable financial institutions
-- 📊 Financial scheme information dashboard
-- 🔐 User authentication
-- 📱 Responsive web interface
-- 🗃️ Database-backed application management
-- ⚡ Fast and modern Next.js application
+### 📋 Scheme Information
+Users can access relevant information such as:
+- Scheme name
+- Eligibility requirements
+- Financial assistance
+- Interest-related information
+- Lending institutions
+- Other important scheme details
 
----
+### 👤 User Profile
+- Allows users to provide relevant information required for scheme matching.
+- User information can be used to improve recommendation relevance.
 
-## 🛠️ Tech Stack
+### 🔐 Authentication
+- Provides user authentication for accessing the platform.
 
-### Frontend
-- Next.js
-- React.js
-- TypeScript
-- Tailwind CSS
-
-### Backend & Database
-- Supabase
-- REST APIs
-
-### AI & Data
-- AI-assisted matching and recommendation logic
-- Structured financial scheme and eligibility data
-
-### Tools & Platforms
-- Git
-- GitHub
-- Vercel
+### 📱 Responsive Interface
+- Designed to provide a usable experience across different screen sizes.
 
 ---
 
-## 🏗️ Project Structure
+# 🎯 Problem Statement
+
+Entrepreneurs, particularly those looking for financial assistance, often face difficulties in finding suitable loan schemes.
+
+The major challenges include:
+
+- Large number of available schemes
+- Different eligibility criteria
+- Difficulty comparing schemes
+- Lack of centralized information
+- Difficulty identifying appropriate lending institutions
+- Time-consuming manual searching
+- Limited awareness of suitable financial support
+
+As a result, eligible entrepreneurs may struggle to identify and access schemes that could be relevant to their requirements.
+
+---
+
+# 💡 Our Solution
+
+The **AI Loan Matching & Smart Routing System** provides a centralized platform where entrepreneurs can enter relevant information about their requirements.
+
+The system then assists in:
+
+1. Understanding the user's requirements
+2. Identifying potentially suitable financial schemes
+3. Checking relevant eligibility conditions
+4. Presenting matched schemes
+5. Providing information about the schemes
+6. Guiding the user toward relevant lending institutions
+
+This creates a more structured journey from **scheme discovery to financial institution routing**.
+
+---
+
+# 🔄 How It Works
 
 ```text
-SIHscheme/
-├── .vscode/
-├── app/
-├── components/
-├── data/
-├── lib/
-├── pages/
-├── public/
-├── scripts/
-├── src/
-├── supabase/
-├── utils/
-├── .eslintrc.json
-├── package.json
-└── README.md
+        User
+          │
+          ▼
+   Enter Requirements
+          │
+          ▼
+   User Information
+          │
+          ▼
+ Eligibility & Matching
+          │
+          ▼
+ Suitable Loan Schemes
+          │
+          ▼
+  Scheme Information
+          │
+          ▼
+ Smart Routing
+          │
+          ▼
+Relevant Lending Institution
