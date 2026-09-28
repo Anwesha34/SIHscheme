@@ -10,7 +10,7 @@ This project was developed as part of the **Smart India Hackathon (SIH)**.
 
 ---
 
-## 🚀 Key Features
+ 🚀 Key Features
 
 ### 🤖 AI-Assisted Loan & Scheme Matching
 - Helps identify financial schemes relevant to the user's requirements.
