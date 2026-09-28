@@ -135,9 +135,7 @@ Vercel
 Note: The technology stack should be updated if the actual repository uses different technologies.
 
 📂 Project Structure
-
 A typical project structure is:
-
 SIHscheme/
 │
 ├── app/
@@ -166,25 +164,20 @@ The exact structure may vary depending on the current implementation.
 
 ⚙️ Getting Started
 Prerequisites
-
 Make sure you have the following installed:
-
 Node.js
 npm
 Git
 
 You can verify Node.js and npm using:
-
 node -v
 npm -v
+
 📥 Installation
 Clone the repository:git clone https://github.com/YOUR-USERNAME/SIHscheme.git
 Move into the project directory:cd SIHscheme
-
 Install dependencies: npm install ▶️ Run the Development Server
-
 Start the development server:npm run dev
-
 Open the application in your browser:http://localhost:3000
 
 🔑 Environment Variables If the project requires environment variables, create a file named:.env.local
@@ -197,25 +190,15 @@ Never upload private API keys, passwords, secret tokens, or other sensitive cred
 The platform follows a simple user journey:
 Step 1 — User Information
 The user provides relevant information required for finding suitable financial schemes.
-
 Step 2 — Requirement Analysis
-
 The system uses the provided information to understand the user's requirements.
-
 Step 3 — Scheme Matching
-
 Potentially relevant financial schemes are identified based on the available eligibility and scheme information.
-
 Step 4 — Recommendation
-
 The user receives a list of potentially suitable schemes.
-
 Step 5 — Scheme Details
-
 The user can review important information about the selected scheme.
-
 Step 6 — Smart Routing
-
 The system guides the user toward relevant lending institutions for the next stage.
 
 🔮 Future Improvements
@@ -251,7 +234,6 @@ Restricting access to protected resources
 
 🚀 Deployment
 The project can be deployed using platforms that support Next.js applications.
-
 For example:
 GitHub → Vercel → Production
 After deployment, update the Live Demo section with the actual application URL.
